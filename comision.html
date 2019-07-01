@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <title>Comisión del estado civil</title>
+</head>
+<body>
+
+  <!-- Navbar -->
+
+  <nav class="navbar navbar-expand-md fixed-top" style="background: #0B3CDE;">
+    <a class="nav-link active text-light" href="index.html">Electiva de formación integral</a>
+    <button class="navbar-toggler text-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fas fa-ellipsis-v"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a href="about/" class="nav-link text-light">Acerca de mí</a>
+      </li> 
+    </ul>
+  </div>
+  </nav>
+  
+  <!-- Cuerpo de la página -->
+
+  <div class="container mt-5">
+    <div class="row">
+
+      <!-- Título de la tarea -->
+      <h1 class="text-capitalize mt-5">Comisión nacional del servicio civil</h1>
+      
+      <!-- Contenido -->
+      <div class="col-sm-12 mt-5">
+        <h3>Organización</h3>
+        <p>Cuenta con una organización lineo-funcional con sus diferentes despachos, oficinas y secretarías, aquí abajo podemos ver como está organizada.</p>
+        <img src="img/estructura_cnsc.PNG" alt="">
+        <a href="https://www.cnsc.gov.co/index.php/institucional/estructura-organizacional">CNSC | Estructura organizacional</a>
+        <h3>Convocatorias</h3>
+        <p>Dentro del CNSC Existen convocatorias para las personas que quieran hacer parte de esta comisión.Existen unas etapas para el concurso</p>
+        <ul>
+          <li>Registro en SIMO</li>
+          <li>Divulgación de la convocatoria</li>
+          <li>Inscripciones</li>
+          <li>Verificación de requisitos mínimos</li>
+          <li>Aplicación de pruebas</li>
+          <li>Lista de elegibles</li>
+          <li>Periodo de prueba</li>
+        </ul>
+        <a href="http://www.cnsc.gov.co/index.php/convocatorias/guia-practica">Guía para las convocatorias de la CNSC</a>
+        <h3>Ofertas de la CNSC para Ingenieros de Sistemas</h3>
+        <ul>
+          <li>Profesional de seguridad o defensa</li>
+          <li>Tecnico De Servicios, De Inteligencia O De Policia Judicial O Tecnico Para Apoyo De Seguridad Y Defensa</li>
+          <li>Tecnico De Servicios, De Inteligencia O De Policia Judicial O Tecnico Para Apoyo De Seguridad Y Defensa</li>
+          <li>Tecnico De Servicios, De Inteligencia O De Policia Judicial O Tecnico Para Apoyo De Seguridad Y Defensa</li>
+          <li><a href="https://simo.cnsc.gov.co/#ofertaEmpleo">Más ofertas laborales aquí</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  
+  <footer class="page-footer font-small blue" id="x">
+    <div class="footer-copyright text-center py-3">© 2019 Copyright:
+      <a href="https://yojanpardo.github.io/portfolio"> Yojan Pardo</a>
+    </div>
+  </footer>
+  
+  <!-- Scripts -->
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script>
+    $(document).ready(function () {
+      var x = document.getElementById('x');
+      if ($("body").height() <  $(window).height()) {
+        x.className += " fixed-bottom";
+      }
+    });
+  </script>
+</body>
+</html>
